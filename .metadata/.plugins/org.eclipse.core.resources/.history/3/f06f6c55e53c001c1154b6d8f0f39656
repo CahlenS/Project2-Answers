@@ -1,0 +1,34 @@
+package AnswersPackage;
+
+public class BubbleSort {
+	
+	void bubbleSort(int arr[]) {
+		
+		int s = arr.length;
+		for (int c = 0; c < s-1; c++)
+			for (int z = 0; z < s-c-1; z++)
+				if (arr[z] > arr[z+1]) {
+					
+					int temp = arr[z];
+					arr[z] = arr[z+1];
+					arr[z+1] = temp;
+					
+				}
+	}
+	
+	void Print(int arr[]) {
+		
+		int p = arr.length;
+		for (int d = 0; d < p; ++d)
+			System.out.print(arr[d] + " ");
+		System.out.println();
+		
+	}
+	
+	public static void main(String args[]){
+		
+		bubbleSort ob = new bubbleSort();
+		
+	}
+
+}

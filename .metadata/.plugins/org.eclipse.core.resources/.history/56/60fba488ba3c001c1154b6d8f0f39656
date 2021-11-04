@@ -1,0 +1,12 @@
+package MyPackage;
+
+public class Driver {
+	
+	public void main(String[] args) {
+		
+		System.out.println("Hello World.");
+		
+	}
+	
+
+}

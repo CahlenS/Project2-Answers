@@ -1,0 +1,33 @@
+package Driver;
+
+import AnswersPackage.BubbleSort;
+import AnswersPackage.FibonacciNumbers;
+import AnswersPackage.ReverseString;
+import java.io.*;
+import java.util.Scanner;
+
+public class Driver {
+	
+	public static void main(String args[]) {
+		
+		//Q1
+		BubbleSort ob = new BubbleSort();
+		int arr[] = {1, 0, 5, 6, 3, 2, 3, 7, 9, 8, 4,};
+		ob.Sort(arr);
+		System.out.println("Q1: ");
+		ob.Print(arr);
+		
+		//Q2
+		FibonacciNumbers fn = new FibonacciNumbers();
+		System.out.println("Q2: ");
+		for(int i = 0; i <= 25; i++)
+			System.out.print(fn.fib(i) + " ");
+		
+		//Q3
+		ReverseString rever = new ReverseString();
+		System.out.println("Q3: ");
+		System.out.print("Original Word: YensiD " + "Reversed Word: " + );
+		
+	}
+
+}

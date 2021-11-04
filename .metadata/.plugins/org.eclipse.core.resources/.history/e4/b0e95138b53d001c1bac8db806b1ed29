@@ -1,0 +1,12 @@
+package AnswersPackage;
+
+public class Substring {
+	
+	public String Sub(String su) {
+		
+		su = new String("Sol1 2Badguy");
+		System.out.println(su.substring(0, 6));
+		return su;
+	}
+
+}

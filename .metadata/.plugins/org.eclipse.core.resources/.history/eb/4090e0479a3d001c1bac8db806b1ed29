@@ -1,0 +1,11 @@
+package AnswersPackage;
+
+public class FibonacciNumbers {
+	
+	static int Fib(int f) {
+		
+		if(f <= 1)
+			return f;
+	}
+
+}

@@ -1,0 +1,17 @@
+package AnswersPackage;
+
+public class ReverseString {
+	
+	public void Reversal(String rev){
+		
+		String RE = "YensiD", ER = "";
+		char KH;
+		
+		for(int i = 0; i<RE.length(); i++) {
+			
+			KH = RE.charAt(i);
+			ER = KH+ER;
+		}
+	}
+
+}

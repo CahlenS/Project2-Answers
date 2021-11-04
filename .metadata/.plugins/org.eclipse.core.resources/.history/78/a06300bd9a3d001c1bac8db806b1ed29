@@ -1,0 +1,12 @@
+package AnswersPackage;
+
+public class FibonacciNumbers {
+	
+	static int fib(int f) {
+		
+		if(f <= 1)
+			return f;
+		return fib(f-1) + fib(f-2);
+	}
+
+}

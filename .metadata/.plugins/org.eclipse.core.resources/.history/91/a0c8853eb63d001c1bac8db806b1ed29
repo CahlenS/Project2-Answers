@@ -1,0 +1,12 @@
+package AnswersPackage;
+
+public class Substring {
+	
+	public String Sub(String su) {
+		
+		su ="";
+		System.out.println(su.substring(0, 9));
+		return su;
+	}
+
+}

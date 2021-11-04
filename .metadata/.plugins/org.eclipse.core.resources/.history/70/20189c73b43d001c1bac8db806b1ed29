@@ -1,0 +1,11 @@
+package AnswersPackage;
+
+public class Substring {
+	
+	public String Sub(String su) {
+		
+		su = new String("Sol1 2Badguy");
+		
+	}
+
+}

@@ -2,7 +2,7 @@ package AnswersPackage;
 
 public class BubbleSort {
 	
-	void Sort(int arr[]) {
+	public void Sort(int arr[]) {
 		
 		int s = arr.length;
 		for (int c = 0; c < s-1; c++)
@@ -16,7 +16,7 @@ public class BubbleSort {
 				}
 	}
 	
-	void Print(int arr[]) {
+	public void Print(int arr[]) {
 		
 		int p = arr.length;
 		for (int d = 0; d < p; ++d)

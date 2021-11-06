@@ -1,12 +1,15 @@
 package Driver;
 
 import AnswersPackage.BubbleSort;
+import AnswersPackage.EvenOddCheck;
 import AnswersPackage.FibonacciNumbers;
 import AnswersPackage.ReverseString;
 //import java.io.*;
-//import java.util.Scanner;
+import java.util.*;
 import AnswersPackage.Factorial;
 import AnswersPackage.Substring;
+import AnswersPackage.ComparatorSort;
+import AnswersPackage.ComparatorSortByName;
 
 public class Driver {
 	
@@ -35,13 +38,35 @@ public class Driver {
 		Factorial Fa = new Factorial();
 		int Num = 10;
 		System.out.println("\nQ4: ");
-		System.out.print("Factorial of " + Num + " is " + Fa.Fact(Num));
+		System.out.println("Factorial of " + Num + " is " + Fa.Fact(Num));
 		
 		//Q5
-		Substring str = new Substring();
-		String y ="Sol1 2Badguy";
-		System.out.println("\nQ5: ");
-		str.Sub(y);
+		System.out.println("Q5: ");
+		Substring.TestSubstring(9);
+		
+		//Q6
+		System.out.println("Q6: ");
+		EvenOddCheck.Num(Num);
+		
+		//Q7
+		ArrayList<ComparatorSort> CS = new ArrayList<ComparatorSort>();
+		CS.add(new ComparatorSort(3, "kreg", "Austria"));
+		CS.add(new ComparatorSort(9, "erza", "Britain"));
+		CS.add(new ComparatorSort(5, "miku", "Japan"));
+		CS.add(new ComparatorSort(7, "idean", "Canada"));
+		CS.add(new ComparatorSort(4, "dreg", "Germany"));
+		
+		System.out.println("Q7: ");
+		System.out.println("Unsorted: ");
+		for(int i = 0; i < CS.size(); i++) {
+			System.out.println(CS.get(i));
+		}
+		
+		System.out.println("Sorted By Name: ");
+		Collections.sort(CS, new ComparatorSortByName());
+		for(int i = 0; i < CS.size(); i++) {
+			System.out.println(CS.get(i));
+		}
 		
 	}
 

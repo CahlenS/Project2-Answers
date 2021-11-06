@@ -2,11 +2,22 @@ package AnswersPackage;
 
 public class Substring {
 	
-	public String Sub(String su) {
+	static String Substring(String str, int idx) {
 		
-		su = new String("Sol1 2Badguy");
-		System.out.println(su.substring(0, 9));
-		return su;
+		char[] charArray = str.toCharArray();
+		char[] substringArray = new char[idx];
+		
+		for (int i = 0; i<idx; ++i) {
+			substringArray[i] = charArray[i];
+		}
+		
+		return new String(substringArray);
+	}
+	
+	static String testString = "Sol1 2Badguy";
+	
+	public static void TestSubstring(int idx) {
+		System.out.println(Substring(testString, idx));
 	}
 
 }

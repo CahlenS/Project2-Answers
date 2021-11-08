@@ -10,6 +10,9 @@ import AnswersPackage.Factorial;
 import AnswersPackage.Substring;
 import AnswersPackage.ComparatorSort;
 import AnswersPackage.ComparatorSortByName;
+import AnswersPackage.Palindromes;
+import AnswersPackage.PrimeCheck;
+import AnswersPackage.MinimumTenerary;
 
 public class Driver {
 	
@@ -41,6 +44,7 @@ public class Driver {
 		System.out.println("Factorial of " + Num + " is " + Fa.Fact(Num));
 		
 		//Q5
+		//Thought the way you did Q5 was better than my original attempt may make edits later
 		System.out.println("Q5: ");
 		Substring.TestSubstring(9);
 		
@@ -68,6 +72,21 @@ public class Driver {
 			System.out.println(CS.get(i));
 		}
 		
+		//Q8
+		//System.out.println("Q8: ");
+		
+		//Q9
+		PrimeCheck pc = new PrimeCheck();
+		//For the sake of my sanity(and testing), 1-20 for now may edit later
+		int arr2[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+		System.out.println("Q9: ");
+		System.out.println("Prime Numbers: ");
+		pc.Prime(arr2);
+		
+		//Q10
+		MinimumTenerary mt = new MinimumTenerary();
+		System.out.println("Q10: ");
+		mt.Ten();
 	}
 
 }

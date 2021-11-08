@@ -8,4 +8,7 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="AnswersPackage.ComparatorSort"/>
     <fullyQualifiedTypeName name="AnswersPackage.ComparatorSortByName"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Palindromes"/>
+    <fullyQualifiedTypeName name="AnswersPackage.PrimeCheck"/>
+    <fullyQualifiedTypeName name="AnswersPackage.MinimumTenerary"/>
 </qualifiedTypeNameHistroy>

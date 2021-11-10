@@ -8,11 +8,19 @@ import AnswersPackage.ReverseString;
 import java.util.*;
 import AnswersPackage.Factorial;
 import AnswersPackage.Substring;
+import AnswersPackage.SwitchCase;
 import AnswersPackage.ComparatorSort;
 import AnswersPackage.ComparatorSortByName;
 import AnswersPackage.Palindromes;
 import AnswersPackage.PrimeCheck;
+import AnswersPackage.Q13;
+import AnswersPackage.Q15_exe;
 import AnswersPackage.MinimumTenerary;
+import AnswersPackage.FloatVariableOne;
+import AnswersPackage.Interest;
+import SecondFloatPackage.FloatVariableTwo;
+import AnswersPackage.EvenOrOdd;
+import AnswersPackage.StringCharacters;
 
 public class Driver {
 	
@@ -73,7 +81,9 @@ public class Driver {
 		}
 		
 		//Q8
-		//System.out.println("Q8: ");
+		System.out.println("Q8: ");
+		Palindromes pa = new Palindromes();
+		pa.Palindrome();
 		
 		//Q9
 		PrimeCheck pc = new PrimeCheck();
@@ -84,9 +94,55 @@ public class Driver {
 		pc.Prime(arr2);
 		
 		//Q10
+		System.out.println("\nQ10: ");
 		MinimumTenerary mt = new MinimumTenerary();
-		System.out.println("Q10: ");
 		mt.Ten();
+		
+		//Q11
+		System.out.println("Q11: ");
+		System.out.println("Float Variable One in Answers Package: ");
+		FloatVariableOne fvo = new FloatVariableOne();
+		fvo.First();
+		System.out.println("Float Variable Two in Second Float Package: ");
+		FloatVariableTwo fvt = new FloatVariableTwo();
+		fvt.Second();
+		
+		//Q12
+		EvenOrOdd eoo = new EvenOrOdd();
+		int arr3[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100};
+		System.out.println("Q12: ");
+		eoo.Even(arr3);
+		
+		//Q13
+		System.out.println("\nQ13: ");
+		Q13.PrintTriangle(4);
+		
+		//Q14
+		System.out.println("Q14: ");
+		SwitchCase.SwitchCases(1);
+		SwitchCase.SwitchCases(2);
+		SwitchCase.SwitchCases(3);
+		
+		//Q15
+		System.out.println("Q15: ");
+		Q15_exe ex = new Q15_exe();
+		ex.Interfaces();
+		
+		//Q16
+		System.out.println("Q16: ");
+		StringCharacters sc = new StringCharacters();
+		sc.Sen();
+		
+		//Q17
+		System.out.println("Q17: ");
+		Interest in = new Interest();
+		in.inter();
+		
+		//Q18: in Driver18 Class
+		
+		//Q19: EvenAndOdd Class
+		
+		//Q20: Q20 Class
 	}
 
 }

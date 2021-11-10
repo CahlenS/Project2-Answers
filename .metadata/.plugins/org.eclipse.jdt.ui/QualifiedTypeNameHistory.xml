@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="AnswersPackage.ReverseString"/>
     <fullyQualifiedTypeName name="AnswersPackage.Factorial"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="AnswersPackage.Substring"/>
     <fullyQualifiedTypeName name="AnswersPackage.EvenOddCheck"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
@@ -11,4 +9,22 @@
     <fullyQualifiedTypeName name="AnswersPackage.Palindromes"/>
     <fullyQualifiedTypeName name="AnswersPackage.PrimeCheck"/>
     <fullyQualifiedTypeName name="AnswersPackage.MinimumTenerary"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="AnswersPackage.FloatVariableOne"/>
+    <fullyQualifiedTypeName name="SecondFloatPackage.FloatVariableTwo"/>
+    <fullyQualifiedTypeName name="AnswersPackage.EvenOrOdd"/>
+    <fullyQualifiedTypeName name="AnswersPackage.ReverseString"/>
+    <fullyQualifiedTypeName name="AnswersPackage.StringCharacters"/>
+    <fullyQualifiedTypeName name="AnswersPackage.TriangleLoopPrint"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Interest"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Q13"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="AnswersPackage.SwitchCase"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Q15_exe"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Interface"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Q15_impl"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Q18_2"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Q18"/>
+    <fullyQualifiedTypeName name="AnswersPackage.Q19"/>
 </qualifiedTypeNameHistroy>

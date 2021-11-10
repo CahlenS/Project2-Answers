@@ -21,7 +21,6 @@ public class EvenAndOdd {
         boolean oddGo = true;
 
         for (int i = 0; i < myList.size(); i++) {
-            //checks if elements form the original list are even
             int checkEvenOrOdd = isEvenOdd(myList.get(i));
             if (checkEvenOrOdd == 1) {
                 while(evenGo){
@@ -36,7 +35,6 @@ public class EvenAndOdd {
         System.out.println(" Even Sum: " + evenSum);
 
         for (int i = 0; i < myList.size(); i++) {
-            //checks if elements form the original list are odd
             int checkEvenOrOdd = isEvenOdd(myList.get(i));
             if (checkEvenOrOdd == 0) {
                 while(oddGo){
@@ -72,16 +70,13 @@ public class EvenAndOdd {
 
     public static boolean isPrime(int value) {
 
-         //This will check for prime numbers
         if(value == 1 || value == 0) return false;
 
         if(value == 2) return true;
 
 
-        //check if n is a multiple of 2
         if (value % 2 == 0) return false;
 
-        //if not, then just check the odds
         for (int i = 3; i * i <= value; i += 2) {
             if (value % i == 0)
                 return false;
